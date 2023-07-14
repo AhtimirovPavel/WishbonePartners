@@ -67,6 +67,11 @@ a {
     color: #ffffff !important;
 }
 
+.selected_link:hover {
+    background-color: #484848;
+    text-decoration: underline #484848;
+}
+
 .logo {
     width: 220px;
 }
@@ -429,6 +434,10 @@ a {
     width: 93px;
 }
 
+.link_card:hover {
+    background-color: #484848;
+}
+
 .view_all_projects {
     display: block;
     color: #1B1A1A;
@@ -578,6 +587,14 @@ a {
 .socials {
     display: flex;
     gap: 20px;
+}
+
+.socials a {
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    transform: translateY(-5px);
 }
 
 .site {
