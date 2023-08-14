@@ -65,6 +65,7 @@ a {
     padding: 11px 20px;
     background-color: #1B1A1A;
     color: #ffffff !important;
+    transition: 0.3s;
 }
 
 .selected_link:hover {
